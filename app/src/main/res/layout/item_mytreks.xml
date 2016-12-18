@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trek_parentView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10.0dip"
+    android:background="@drawable/listitem_background">
+
+
+    <ImageView
+        android:id="@+id/trek_route_icon"
+        android:layout_width="60.0dp"
+        android:layout_height="60.0dp"
+        android:src="@drawable/route_map_icon"
+        android:layout_margin="10.0dp"
+        android:layout_alignParentLeft="true"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_toRightOf="@id/trek_route_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/trek_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:paddingLeft="0.0dip"
+            android:textSize="18.0sp"
+            android:textColor="@color/black"
+            android:text="Walk on Sun 8th Oct at 8:40 PM"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14.0sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="Cost: $"/>
+
+                <TextView
+                    android:id="@+id/trek_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="40"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="Saving: $"/>
+
+                <TextView
+                    android:id="@+id/trek_saving"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textStyle="italic"
+                    android:layout_marginRight="10.0dip"
+                    android:textColor="@color/black"
+                    android:text="40"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

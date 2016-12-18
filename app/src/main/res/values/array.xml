@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="footlistArray">
+        <item>15 Seconds</item>
+        <item>30 Seconds</item>
+        <item>60 Seconds</item>
+    </string-array>
+
+    <string-array name="footlistValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

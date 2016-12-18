@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_save_trek"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6FFFFFF"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/trek_toolbar"
+        android:background="@color/main_color_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+
+    <fragment
+        android:id="@+id/trek_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Speed[Km/h]"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/speed_chat_layout"
+        android:background="#ffffff">
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:layout_margin="0.0dp"
+        android:background="#A0A0A0" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_trek_distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="DISTANCE (km) "
+                    android:textColor="#000"
+                    android:typeface="serif"
+                    android:textSize="13dp" />
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="1.0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0.0dp"
+                android:background="#A0A0A0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_trek_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.00"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DURATION"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:typeface="serif"
+                    android:textSize="13dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0dp"
+            android:layout_margin="0.0dp"
+            android:background="#A0A0A0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_trek_max_speed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="MAX SPEED (km/h) "
+                    android:textColor="#000"
+                    android:typeface="serif"
+                    android:textSize="13dp" />
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="1.0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0.0dp"
+                android:background="#A0A0A0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_trek_avg_speed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AVG SPEED (km/h)"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:typeface="serif"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:layout_margin="0.0dp"
+        android:background="#A0A0A0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edittext_trek_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0.0"
+                android:background="@color/white"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="COST (USD) "
+                android:textColor="#000"
+                android:typeface="serif"
+                android:textSize="13dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.0dp"
+            android:background="#A0A0A0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_trek_saving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0.0"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SAVINGS (USD)"
+                android:gravity="center"
+                android:textColor="#000"
+                android:typeface="serif"
+                android:textSize="13dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:layout_margin="0.0dp"
+        android:background="#A0A0A0" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_margin="10.0dp"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btn_discard_trek"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="DISCARD TREK"
+            android:textColor="#FFF"
+            android:background="#A0A0A0" />
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btn_save_trek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SAVE TREK"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:background="#66cc00" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

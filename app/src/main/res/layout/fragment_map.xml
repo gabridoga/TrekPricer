@@ -1,0 +1,409 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="5dp"
+        android:background="#E6FFFFFF"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="---"
+                android:id="@+id/text_trek_activity"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:typeface="serif"
+                android:background="@color/green"
+                android:textColor="@color/abc_secondary_text_material_dark" />
+
+            <ImageView
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:id="@+id/trekmode_imageView"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_info_bar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.00"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DURATION"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="1.0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0.0dp"
+                android:background="#A0A0A0" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="DISTANCE (km) "
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0dp"
+            android:layout_margin="0.0dp"
+            android:background="#A0A0A0" />
+
+
+        <LinearLayout
+            android:id="@+id/bottom_info_bar_2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/saving_background">
+
+                <TextView
+                    android:id="@+id/text_savings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:id="@+id/saving_flag"
+                    android:typeface="serif" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="1.0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0.0dp"
+                android:background="#A0A0A0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_avg_speed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AVG SPEED (km/h)"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0dp"
+            android:layout_margin="0.0dp"
+            android:background="#A0A0A0" />
+
+        <LinearLayout
+            android:id="@+id/bottom_info_bar_3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/today_background">
+
+                <TextView
+                    android:id="@+id/text_today"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Today ($)"
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="1.0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0.0dp"
+                android:background="#A0A0A0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/net_background">
+
+                <TextView
+                    android:id="@+id/text_net_cost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Net ($)"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:typeface="serif" />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/start_trek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START TREK"
+            android:textColor="#FFF"
+            android:background="#2962FF" />
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/pause_trek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAUSE TREK"
+            android:textColor="#FFF"
+            android:visibility="gone"
+            android:background="#2962FF" />
+
+        <LinearLayout
+            android:id="@+id/bottom_button_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_margin="5.0dp"
+            android:weightSum="2">
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/end_trek"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="END TREK"
+                android:textColor="#FFF"
+                android:background="#FF0000" />
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/resume_trek"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="RESUME TREK"
+                android:layout_weight="1"
+                android:textColor="#FFF"
+                android:background="#66cc00" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_button_bar_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_margin="5.0dp"
+            android:visibility="gone"
+            android:weightSum="2">
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/btn_map_discard_trek"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="DISCARD TREK"
+                android:textColor="#FFF"
+                android:background="#A0A0A0" />
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/btn_map_save_trek"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SAVE TREK"
+                android:layout_weight="1"
+                android:textColor="#FFF"
+                android:background="#66cc00" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Chronometer android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chrono"
+        android:visibility="gone"/>
+
+    <TextClock
+        android:id="@+id/map_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:format12Hour="hh:mm a"
+        android:paddingLeft="5.0dp"
+        android:paddingRight="20.0dp"
+        android:visibility="gone"
+        android:text="04:05 PM"
+        android:textColor="@color/black"
+        android:textSize="18.0sp" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,467 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5D6A7"
+    android:orientation="vertical"
+    tools:context="com.trek.pricer.fragments.FootFragment">
+
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginTop="5.0dp"
+        android:layout_gravity="right"
+        android:background="@drawable/round_corner">
+
+        <TextClock
+            android:id="@+id/bike_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:format12Hour="hh:mm a"
+            android:paddingLeft="5.0dp"
+            android:paddingRight="20.0dp"
+            android:text="04:05 PM"
+            android:textColor="@color/black"
+            android:textSize="18.0sp" />
+
+
+        <TextView
+            android:id="@+id/bike_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="5.0dp"
+            android:layout_toLeftOf="@id/bike_time"
+            android:text="Sun 23 0ct"
+            android:textColor="@color/black"
+            android:textSize="18.0sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginTop="5.0dp"
+        android:background="@drawable/round_corner">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bike_duration"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="0.0dp"
+                        android:gravity="center"
+                        android:text="00:00:00"
+                        android:textColor="@color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="5.0dp"
+                        android:layout_marginTop="5.0dp"
+                        android:text="Duration"
+                        android:textColor="@color/black"
+                        android:textSize="18.0sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bike_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="0.0dp"
+                        android:text="0.0"
+                        android:textColor="@color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingLeft="5.0dp"
+                        android:layout_marginTop="5.0dp"
+                        android:text="Distance (km)"
+                        android:textColor="@color/black"
+                        android:textSize="18.0sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.01"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bike_max_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="0.0dp"
+                        android:text="0.0"
+                        android:textColor="@color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="5.0dp"
+                        android:text="Max Speed (km/h)"
+                        android:layout_marginTop="5.0dp"
+                        android:textColor="@color/black"
+                        android:textSize="18.0sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bike_avg_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="0.0dp"
+                        android:text="0.0"
+                        android:textColor="@color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingLeft="5.0dp"
+                        android:layout_marginTop="5.0dp"
+                        android:text="Avg Speed (km/h)"
+                        android:textColor="@color/black"
+                        android:textSize="18.0sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="2.0dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/black" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.0dp"
+            android:layout_centerInParent="true"
+            android:background="@color/black" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginTop="5.0dp"
+        android:background="@drawable/round_corner"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bike_savings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingRight="0.0dp"
+                    android:text="$ 0.0"
+                    android:textColor="@color/black"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5.0dp"
+                    android:text="Savings"
+                    android:layout_marginTop="5.0dp"
+                    android:textColor="@color/black"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="2.0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="15.0dp"
+                android:background="@color/black" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/bike_today_savings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingRight="0.0dp"
+                    android:text="$ 0.0"
+                    android:textColor="@color/black"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5.0dp"
+                    android:layout_marginTop="5.0dp"
+                    android:text="Today"
+                    android:textColor="@color/black"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.0dp"
+            android:background="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="0.0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="5.0dp"
+                android:text="Net"
+                android:textColor="@color/black"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=" = "
+                android:textColor="@color/black"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bike_net_saving"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:paddingRight="5.0dp"
+                android:text="$ 0.0"
+                android:textColor="@color/black"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/bike_start_trek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginTop="5.0dp"
+        android:background="#2962FF"
+        android:text="START TREK"
+        android:textColor="#FFF" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/bike_pause_trek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginTop="5.0dp"
+        android:background="#2962FF"
+        android:text="PAUSE TREK"
+        android:textColor="#FFF"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/bike_bottom_button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_margin="5.0dp"
+        android:weightSum="2">
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/bike_end_trek"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="END TREK"
+            android:textColor="#FFF"
+            android:background="#FF0000" />
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/bike_resume_trek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="RESUME TREK"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:background="#66cc00" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bike_bottom_button_bar_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5.0dp"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btn_bike_discard_trek"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="DISCARD TREK"
+            android:textColor="#FFF"
+            android:background="#A0A0A0" />
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btn_bike_save_trek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SAVE TREK"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:background="#66cc00" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:textColor="@color/white"
+        android:layout_margin="5.0dp"
+        android:paddingLeft="10.0dp"
+        android:gravity="center_horizontal"
+        android:text="Don't switch screen while trek is in progress."/>
+
+
+
+    <Chronometer
+        android:id="@+id/bike_chrono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+</LinearLayout>
