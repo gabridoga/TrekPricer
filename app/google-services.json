@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "740564335990",
+    "firebase_url": "https://trekpricer.firebaseio.com",
+    "project_id": "trekpricer",
+    "storage_bucket": "trekpricer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740564335990:android:a662f28d7888061e",
+        "android_client_info": {
+          "package_name": "com.trek.pricer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740564335990-fmomenfm6721obm7n6cgudgp2ktcmj6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX_ZRE9rXkNmt3sq_JrIRybA6gdE_xxBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

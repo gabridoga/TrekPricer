@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/Volumes/WORK/ANDROID_SAMPLES/TrekPricer2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="7a73599f55d00ceae8b841cdb6afb48e176581de">
-        <dex dex="/Volumes/WORK/ANDROID_SAMPLES/TrekPricer2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3581e1d816db6c0668f8f9537b9c0eec1ea17ffc/classes.dex" />
-    </item>
-
-</items>
+<items version="2" />

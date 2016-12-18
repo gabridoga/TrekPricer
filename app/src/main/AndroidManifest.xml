@@ -20,20 +20,23 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".main.LoginActivity">
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".main.StartActivity"
+        android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".main.LoginActivity">
+
+        </activity>
         <activity
             android:name=".main.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".main.SaveTrekActivity"
             android:label="Trek Overview"
@@ -72,6 +75,9 @@
             android:name=".main.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
     </application>
 

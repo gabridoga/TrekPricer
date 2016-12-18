@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="parser-0.1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/io.ticofab.androidgpxparser/parser/0.1.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/io.ticofab.androidgpxparser/parser/0.1.5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ticofab.androidgpxparser/parser/0.1.5/b1338bbef971d6561edbec3d5bac4f4c8ae7e74c/parser-0.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

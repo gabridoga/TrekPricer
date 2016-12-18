@@ -42,6 +42,8 @@ import com.google.android.gms.location.LocationSettingsRequest;
 import com.google.android.gms.location.LocationSettingsResult;
 import com.google.android.gms.location.LocationSettingsStates;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.trek.pricer.R;
 import com.trek.pricer.fragments.MyTreksFragment;
 import com.trek.pricer.fragments.TrackingFragment;
@@ -57,7 +59,8 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, MyTreksFragment.Callbacks {
 
-
+    public FirebaseAuth auth;
+    public FirebaseUser currnetUser;
     private GoogleApiClient mApiClient;
     private MyActivityRequestReceiver receiver;
     private ProgressDialog dialog;
@@ -75,6 +78,9 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        auth=FirebaseAuth.getInstance();
+        currnetUser=auth.getCurrentUser();
+        Toast.makeText(getApplicationContext(),currnetUser.getEmail(),Toast.LENGTH_LONG).show();
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -341,6 +347,11 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
         }
+       else if (id == R.id.nav_signout) {
+
+           signout();
+
+       }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -478,5 +489,11 @@ public class MainActivity extends AppCompatActivity
             }
         }, 5000);
     }
+public void signout(){
 
+    auth.signOut();
+    Intent intent=new Intent(MainActivity.this,LoginActivity.class);
+    startActivity(intent);
+
+}
 }
