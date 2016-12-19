@@ -113,6 +113,14 @@ public class TrackingFragment extends Fragment {
             activityType.setText( trekMode + " - Confidence: " + "100 %");
         }
 
+
+
+
+//        float total_cost=getTodayCosts();
+//        float total_savings=getTodaySavings();
+
+
+
         gpsTracker = new GPSTracker(getActivity());
 
         locations = new ArrayList<>();
@@ -356,27 +364,39 @@ public class TrackingFragment extends Fragment {
     public float getTodaySavings(){
         savingslist=new ArrayList<>();
         savingslist= DatabaseHandler.getInstance(getActivity()).getAllTrek();
-        double todaysaving_tmp=0;
-        for (SavedLineup save :savingslist){
+        if (savingslist!=null){
+            double todaysaving_tmp=0;
+            for (SavedLineup save :savingslist){
 //        Log.d("NUMBER",save.trek_max_speed);
-            todaysaving_tmp=Double.parseDouble(save.trek_saving);
-            todaysaving_tmp+=todaysaving_tmp;
+                todaysaving_tmp=Double.parseDouble(save.trek_saving);
+                todaysaving_tmp+=todaysaving_tmp;
+            }
+            float saving_resut= (float) todaysaving_tmp;
+            return saving_resut;
         }
-        float saving_resut= (float) todaysaving_tmp;
-        return saving_resut;
+        else {
+            return 0;
+        }
+
     }
     public float getTodayCosts(){
 
         costslist=new ArrayList<>();
         costslist= DatabaseHandler.getInstance(getActivity()).getAllTrek();
-        double todaycosts_tmp=0;
-        for (SavedLineup cost :costslist){
+        if (costslist!=null){
+            double todaycosts_tmp=0;
+            for (SavedLineup cost :costslist){
 //      Log.d("NUMBER",save.trek_max_speed);
-            todaycosts_tmp=Double.parseDouble(cost.trek_cost);
-            todaycosts_tmp+=todaycosts_tmp;
+                todaycosts_tmp=Double.parseDouble(cost.trek_cost);
+                todaycosts_tmp+=todaycosts_tmp;
+            }
+            float cost_result= (float) todaycosts_tmp;
+            return cost_result;
         }
-        float cost_result= (float) todaycosts_tmp;
-        return cost_result;
+        else {
+          return 0;
+        }
+
 
     }
     @Override
@@ -524,7 +544,7 @@ public class TrackingFragment extends Fragment {
                         // Do some stuff when a new GPS Location has been found
                         if (isTrekOn) {
                             Toast.makeText(getActivity(),"trek is on",Toast.LENGTH_SHORT).show();
-                            if(trekMode.equals("STILL")||trekMode.equals("TILTING")||trekMode.equals("UNKNOWN")){
+                            if(trekMode.equals("STILL")||trekMode.equals("UNKNOWN")){
                                 Toast.makeText(getActivity(),"Trek mode is still,titlling,unknown",Toast.LENGTH_SHORT).show();
                                 Dialog dialog = errorSavingTrek();
                                 dialog.show();
@@ -638,7 +658,7 @@ public class TrackingFragment extends Fragment {
                                         todayCost.setText(String.valueOf(df.format(round(today_total,2))));
 
                                     }
-                                    else if (trekMode.equals("ON_FOOT")||trekMode.equals("WALKING")||trekMode.equals("RUNNING")){
+                                    else if (trekMode.equals("ON_FOOT")||trekMode.equals("WALKING")||trekMode.equals("RUNNING")||trekMode.equals("TILTING")){
                                         trekmode_imageview.setImageResource(R.drawable.foot);
                                         activityType.setBackgroundColor(Color.parseColor("#4CAF50"));
 

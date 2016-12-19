@@ -28,6 +28,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -80,7 +83,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         auth=FirebaseAuth.getInstance();
         currnetUser=auth.getCurrentUser();
-        Toast.makeText(getApplicationContext(),currnetUser.getEmail(),Toast.LENGTH_LONG).show();
+//        Toast.makeText(getApplicationContext(),currnetUser.getEmail(),Toast.LENGTH_LONG).show();
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -94,7 +97,15 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        View headerView = navigationView.getHeaderView(0);
+        ImageView drawerImage = (ImageView) headerView.findViewById(R.id.draw_header_userimage_imageView);
+        TextView drawerUsername = (TextView) headerView.findViewById(R.id.drawer_header_username_textview);
+        TextView drawerAccount = (TextView) headerView.findViewById(R.id.draw_header_email_textView);
+//        drawerImage.setImageDrawable(R.drawable.ic_user);
+        drawerUsername.setText("Trek Pricer");
+        drawerAccount.setText(currnetUser.getEmail());
         navigationView.setNavigationItemSelectedListener(this);
+
 
         mApiClient = new GoogleApiClient.Builder(this)
                 .addApi(ActivityRecognition.API)

@@ -1,2 +1,327 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_dfd2ca155b6ec8bc091b40c18f3d32f32c3300bc/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/DATA/DEVELOPMENT_LIBS/android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_ea0035df8a8bba1539ea9b2464458018e367c369/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.8.0_9f44b64e38f98c5558a51f4696cbd1a2bbb4069c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gari/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_cd180a6aa7832bddfa7762e19ec6da54229a6605/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.4/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.clans-fab-1.6.4_306a82892a6cea82af980eacfcc0ad8c84ec765e/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_602814865a04c4df9dc676e85d5ccee88fbd1121/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_424328bb135c20b122aac2e57e27a8f6f18cfff6/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.8.0_262a59aa43a0c438bee091a93250e3e9d61c14f6/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b46ead2c40498bec105f246c50c96aff4c33618f/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_1ee533787b3517c2bdc302abd7979e2404e480a8/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_43004043c7851f0d08656dd43fe418a46181f4a1/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.8.0_4ccc3393f4390f96f40d8f829a912e3cdaf59ef1/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.8.0_175fda04e967a20c58e2d516310821c0f52eed22/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gari/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.4/42e5f69edd03ac35f7fb93fad004ee6e45657f36/joda-time-2.9.4-no-tzdb.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="42e5f69edd03ac35f7fb93fad004ee6e45657f36">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.9.4-no-tzdb_13fa3684422d762792c01766fdaec253f84f17a9/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_833c8299bcb55c7741f25985a2f0501d94cff4a9/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_1ead9536b21926fe54ddbca1c9cc71f9437ae38d/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_4c8abcdb1573db54744e05df46551713bfa9029a/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_74c91ec143bb3bb7564d2ad99c20c4d8b7fcf155/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d3f8ab57967a9149262ad36a46477fc2515f6ac8">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.afollestad.material-dialogs-core-0.9.0.2_9537b84783ea13dcd9ffd2e6d72fb038a1f05695/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_624931016d625c9dcb08fa73396b9cf1d1a50ec8/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_1f661c8a05d3593063cd8c7c99e1c43e4db65013/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_b5a25735701c504024bf46ffb4a179f7e59ee612/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_24a62336a9df103820be31d5299bd04cf0baacce/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/io.ticofab.androidgpxparser/parser/0.1.5/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="f338028d56c2bd71a054bad906b1af654f4e1e8c">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.ticofab.androidgpxparser-parser-0.1.5_7b2e4f9d7ccd4c0bd007837d77fa0b76db512424/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.github.lecho/hellocharts-library/1.5.8/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="56c6a22c42588628903e9dda5d8f3aa1c1b4372f">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.lecho-hellocharts-library-1.5.8_6643d08c1c48ee9902df7713289d9dfcac7bedba/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gari/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_ace9c4b20787cbd263b93554f31b335abc2d3afc/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_478e32852cd745ce50b46fdf92b39c0d11849afe/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.8.0_37627f9cbaef9e725ad3cdc892b9eb6512901391/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="b60bfc20011fe85def61f6736ed4f3294ce10f7c">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_22c6ce6918e1530311a1248beb675937ee1bb329/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.4.2/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="5476bb119ef7d9b6eb63f929324fb87ee40ee9e5">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/net.danlew-android.joda-2.9.4.2_118985b32af52003991abc7e1bd7b30980010b0c/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_38603d474d434d20f86d9431c075244e832f97dd/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.github.vajro/MaterialDesignLibrary/1.6/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="b083f9ed76344c2f2b227c56d597f6d08d3fefc8">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.vajro-MaterialDesignLibrary-1.6_834cc83af26e00da8d1575b71cd3db0751dbccf3/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_13a981eb9aadcd6f7e4a6216063d6de4984be264/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.7/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="1478a113f04bf0b679037b4f6bd88bd1837b96a3">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.zhanghai.android.materialprogressbar-library-1.1.7_c0250a3975f6a2d12310a104de604548a3daf721/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_fd0fa31d992df736c3eccfcd565ecb0262d60b49/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_190df9716ce08352a4290be303d2bd0b89d0c323/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="6bd6888590b8e8cc5a1091f38ce3d5a3e22b7e89">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4f1b4d0b2a9f17c06ae98468ceb4c0a18eb0bb58/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.8.0_157d378e8c35aa52f83633e29fc94882eaa0ff7d/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.8.0_7adbb12da5e9183552a3c3357a00af9cbba4ed79/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_fb22721ed2fdda648cc0be48518bc55f46cf23cd/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_6ec9481a7f1a0e35659770fedb32d908e0815517/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.8.0_4b44e1372624f468f654ca520cec7ab8d4d4df40/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_1f3fd35e4becc9a0a148f30f70f411d487831c87/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_c17e5897d72c2558317a4335c15af886b26532e2/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_45fbfa317e4e6569e4cc9aa3e8f8b1141b6f4f0a/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Volumes/WORK/ANDROID/TrekPricer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_2352706b62f6b64baf2d77db16ff681e0a89b380/classes.dex" />
+    </item>
+
+</items>
